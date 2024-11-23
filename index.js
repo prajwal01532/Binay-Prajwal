@@ -3,6 +3,7 @@ import express from 'express';
 import connectDB from './config/database.js'; 
 import ProductRoute from './routes/ProductRoute.js';
 import AuthRoute from './routes/AuthRoutes.js';
+import CartRoute from './routes/CartRoute.js';
 
 const app = express();
 connectDB();
